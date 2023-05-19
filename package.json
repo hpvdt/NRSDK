@@ -1,0 +1,9 @@
+{
+  "name": "org.hpvdt.nrsdk",
+  "displayName": "NRSDK",
+  "version": "1.10.2",
+  "documentationUrl": "https://github.com/hpvdt/NRSDK",
+  "changelogUrl": "https://github.com/hpvdt/NRSDK",
+  "licensesUrl": "https://github.com/hpvdt/NRSDK/blob/main/LICENSE",
+  "description": "HPVDT fork of NRSDK"
+}
