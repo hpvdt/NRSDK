@@ -1,4 +1,4 @@
-﻿Nreal MR SDK for Unity
+Nreal MR SDK for Unity
 version 1.9.5
 
 This SDK provides Android and windows developers with the easiest way to add

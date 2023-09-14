@@ -1,4 +1,4 @@
-﻿Shader "NRSDK/NormalBlend "
+Shader "NRSDK/NormalBlend "
 {
 	Properties
 	{

@@ -1,4 +1,4 @@
-﻿using NRKernal;
+using NRKernal;
 using UnityEngine;
 
 /// <summary> A trackable found test. </summary>

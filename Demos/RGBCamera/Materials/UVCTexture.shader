@@ -1,4 +1,4 @@
-﻿Shader "Unlit/UVCTexture"
+Shader "Unlit/UVCTexture"
 {
 	Properties
 	{

@@ -1,4 +1,4 @@
-﻿namespace NRKernal
+namespace NRKernal
 {
     using System;
     using System.Collections.Generic;

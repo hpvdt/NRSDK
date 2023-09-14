@@ -1,4 +1,4 @@
-﻿using NRKernal;
+using NRKernal;
 using UnityEngine;
 #if USING_XR_SDK
 using UnityEngine.XR;

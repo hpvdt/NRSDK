@@ -1,4 +1,4 @@
-﻿Shader "NRSDK/NormalTexture"
+Shader "NRSDK/NormalTexture"
 {
 	Properties
 	{

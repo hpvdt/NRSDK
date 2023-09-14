@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 /****************************************************************************
 * Copyright 2019 Nreal Techonology Limited. All rights reserved.
 *                                                                                                                                                          

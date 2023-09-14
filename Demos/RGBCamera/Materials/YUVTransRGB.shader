@@ -1,4 +1,4 @@
-﻿Shader "Unlit/YUVTransRGB"
+Shader "Unlit/YUVTransRGB"
 {
 	Properties
 	{
