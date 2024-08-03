@@ -1,4 +1,4 @@
-Shader "NRSDK/Invisible"
+﻿Shader "NRSDK/Invisible"
 {
     SubShader
     {

@@ -1,4 +1,4 @@
-Shader "VideoPlayer/Screen" {
+﻿Shader "VideoPlayer/Screen" {
 	Properties{
 		_MainTex("Base (RGB) Trans (A)", 2D) = "white" {}
 	}

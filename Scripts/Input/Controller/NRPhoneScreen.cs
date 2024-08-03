@@ -1,4 +1,4 @@
-namespace NRKernal
+﻿namespace NRKernal
 {
     using UnityEngine;
 

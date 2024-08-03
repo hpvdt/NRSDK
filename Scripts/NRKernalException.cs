@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace NRKernal
 {
@@ -174,6 +174,17 @@ namespace NRKernal
         /// <param name="msg">            The message.</param>
         /// <param name="innerException"> (Optional) The inner exception.</param>
         public NRUnSupportedHandtrackingCalculationError(NativeResult result, string msg, Exception innerException = null) : base(result, msg, Level.Normal, innerException)
+        {
+        }
+    }
+
+    /// <summary> SDK runtime not found error. </summary>
+    public class NRRuntimeNotFoundError : NRNativeError
+    {
+        /// <summary> Constructor. </summary>
+        /// <param name="msg">            The message.</param>
+        /// <param name="innerException"> (Optional) The inner exception.</param>
+        public NRRuntimeNotFoundError(NativeResult result, string msg, Exception innerException = null) : base(result, msg, Level.High, innerException)
         {
         }
     }

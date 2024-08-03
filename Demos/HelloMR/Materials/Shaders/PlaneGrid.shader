@@ -1,4 +1,4 @@
-Shader "NRSDK/PlaneGrid"
+﻿Shader "NRSDK/PlaneGrid"
 {
 	Properties
 	{

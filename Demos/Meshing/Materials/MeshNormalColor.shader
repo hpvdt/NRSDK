@@ -1,4 +1,4 @@
-Shader "NRSDK/NormalColor"
+﻿Shader "NRSDK/NormalColor"
 {
     SubShader
     {

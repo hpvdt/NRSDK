@@ -1,4 +1,4 @@
-namespace NRKernal
+﻿namespace NRKernal
 {
     using UnityEngine;
     using UnityEngine.UI;
@@ -37,12 +37,15 @@ namespace NRKernal
         /// <summary> Updates this object. </summary>
         void Update()
         {
-            highestFPSLabel.text =
-                stringsFrom00To99[Mathf.Clamp(fpsCounter.HighestFPS, 0, 99)];
-            averageFPSLabel.text =
-                stringsFrom00To99[Mathf.Clamp(fpsCounter.AverageFPS, 0, 99)];
-            lowestFPSLabel.text =
-                stringsFrom00To99[Mathf.Clamp(fpsCounter.LowestFPS, 0, 99)];
+            if (fpsCounter == null)
+                return;
+
+            if (highestFPSLabel != null)
+                highestFPSLabel.text = stringsFrom00To99[Mathf.Clamp(fpsCounter.HighestFPS, 0, 99)];
+            if (averageFPSLabel != null)
+                averageFPSLabel.text = stringsFrom00To99[Mathf.Clamp(fpsCounter.AverageFPS, 0, 99)];
+            if (lowestFPSLabel != null)
+                lowestFPSLabel.text = stringsFrom00To99[Mathf.Clamp(fpsCounter.LowestFPS, 0, 99)];
         }
     }
 }
