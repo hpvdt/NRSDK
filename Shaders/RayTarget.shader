@@ -1,4 +1,4 @@
-﻿Shader "Unlit/RayTarget"
+Shader "Unlit/RayTarget"
 {
     Properties
     {

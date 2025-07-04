@@ -1,4 +1,4 @@
-﻿Shader "NRSDK/AlphaBlend "
+Shader "NRSDK/AlphaBlend "
 {
 	Properties
 	{

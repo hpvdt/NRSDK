@@ -1,4 +1,4 @@
-﻿Shader "NRSDK/NormalBlendYUV"
+Shader "NRSDK/NormalBlendYUV"
 {
 	Properties
 	{
